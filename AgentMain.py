@@ -10,7 +10,7 @@ from agents.run import RunConfig
 from agents.models.openai_chatcompletions import OpenAIChatCompletionsModel
 
 # Imposta la domanda da porre all'agente
-domanda_da_porre = "What are we discussing now?"
+prompt_for_chatting_with_agent = "What are we discussing now?"
 
 # Specifica il nome dell'agente
 agent_name = "Assistant"
@@ -62,7 +62,7 @@ def main():
     print("Avvio dell'agente in corso...")
     result = Runner.run_sync(
         agent, 
-        domanda_da_porre,
+        prompt_for_chatting_with_agent,
         run_config=config
     )
 

@@ -1,0 +1,12 @@
+# Core dependencies
+openai>=2.26.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+aiohttp>=3.8.0
+
+# OpenAI Agent SDK
+openai-agents>=0.15.0
+
+# Optional: For enhanced functionality
+typing-extensions>=4.12.0
+requests>=2.0.0
