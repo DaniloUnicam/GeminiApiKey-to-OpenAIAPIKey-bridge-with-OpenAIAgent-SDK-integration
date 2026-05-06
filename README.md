@@ -4,7 +4,7 @@ A Python script used as a bridge for your Gemini API Key in compatibility with O
 
 This enables the use of OpenAI's Agent SDK, but using Gemini instead of OpenAI.
 
-1) Insert your GeminiAPI Key inside a .env file inside this folder.
+1) Insert your GeminiAPI Key inside a .env file inside the same folder as the cloned repository (so same folder of AgentMain.py, for example).
 
 <img width="421" height="58" alt="image" src="https://github.com/user-attachments/assets/e74c6f1e-9609-448f-977d-9fbb8e77dd12" />
 
