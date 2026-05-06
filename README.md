@@ -1,11 +1,20 @@
-# GeminiApiKey-OpenAIAPIKey-bridge-with-OpenAI-Agent-SDK-integration
+# GeminiApiKey <--> OpenAIAPIKey bridge with OpenAI Agent SDK integration
 A Python script used as a bridge for your Gemini API Key in compatibility with OpenAI API, using the following url:
 "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 This enables the use of OpenAI's Agent SDK, but using Gemini instead of OpenAI.
 
-The main configuration comes from AgentMain.py.
+1) Insert your GeminiAPI Key inside a .env file inside this folder.
+Example:
+<img width="421" height="58" alt="image" src="https://github.com/user-attachments/assets/e74c6f1e-9609-448f-977d-9fbb8e77dd12" />
 
+
+2) The main configuration comes from AgentMain.py:
+<img width="517" height="270" alt="image" src="https://github.com/user-attachments/assets/25cb98ed-0a24-459e-a179-a343e066b9d7" />
+
+
+
+ONLY IF USING OpenAI-API key: test_openai.py does the job.
 
 List of compatible models:
   - models/gemini-2.5-flash
