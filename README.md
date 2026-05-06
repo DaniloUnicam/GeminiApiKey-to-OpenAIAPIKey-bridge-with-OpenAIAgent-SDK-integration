@@ -123,8 +123,6 @@ python AgentMain.py
 - `agent_model`: Gemini model to use (e.g., "gemini-2.5-flash")
 - `prompt_for_chatting_with_agent`: The question/prompt to send to the agent
 
-<img width="517" height="270" alt="image" src="https://github.com/user-attachments/assets/25cb98ed-0a24-459e-a179-a343e066b9d7" />
-
 ### List Available Models
 
 View all compatible Gemini models:
