@@ -22,6 +22,9 @@ This enables the use of OpenAI's Agent SDK, but using Gemini instead of OpenAI.
 
 ONLY IF USING OpenAI-API key: test_openai.py does the job.
 
+
+USE list_models.py to view compatible models (example of working ones below)
+
 List of compatible models:
   - models/gemini-2.5-flash
   - models/gemini-2.5-pro
