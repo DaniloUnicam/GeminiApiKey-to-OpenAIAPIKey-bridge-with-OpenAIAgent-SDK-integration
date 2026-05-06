@@ -1,0 +1,15 @@
+{
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "OpenAI_Agent_Repo/node_modules",
+        "OpenAI_Agent_Repo/.git",
+        "OpenAI_Agent_Repo/build",
+        "OpenAI_Agent_Repo/dist"
+    ],
+    "venvPath": ".",
+    "venv": ".venv",
+    "pythonVersion": "3.14",
+    "typeCheckingMode": "basic"
+}
